@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="193dp"
+        android:text="myOrder"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginStart="35dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/signupButton"
+        android:layout_marginEnd="35dp"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold" />
+</RelativeLayout>
